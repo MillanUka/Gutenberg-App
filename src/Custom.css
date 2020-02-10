@@ -1,0 +1,17 @@
+body {
+    background-color: #B1EDE8;
+}
+
+#listContainer {
+    background-color: #273043;
+}
+
+#listContainer h1 {
+    max-width: 100%;
+    color: white;
+}
+
+#list {
+    max-height: 400px;
+    overflow-y: scroll;
+}
