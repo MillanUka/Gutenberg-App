@@ -38,13 +38,12 @@ class Search extends Component {
             alert("Please enter something!")
             return;
         }
-        var titleQuery = $("#searchBar").val().replace(" ", "%20");
+        var titleQuery = $("#searchBar").val().replace(/ /g, "%20");
         console.log(titleQuery);
         this.performSearch(titleQuery);
     }
 
     performSearch(query) {
-        console.log(API + "search/title%20eq%20Moby%20Dick?include=author,language");
         $.ajax({
             type: "GET",
             url: API + SEARCH_TITILE + query + INCLUDE_ALL_META_DATA,

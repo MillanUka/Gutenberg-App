@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="container" >
       <h1 className="display-4">Gutenberg</h1>
-
       <Search />
     </div>
   );

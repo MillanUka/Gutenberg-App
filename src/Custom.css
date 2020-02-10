@@ -1,9 +1,9 @@
 body {
-    background-color: #B1EDE8;
+    background-color: #59F8E8;
 }
 
 #listContainer {
-    background-color: #273043;
+    background-color: #8B80F9;
 }
 
 #listContainer h1 {
@@ -12,6 +12,7 @@ body {
 }
 
 #list {
+    min-height: 400px;
     max-height: 400px;
     overflow-y: scroll;
 }
